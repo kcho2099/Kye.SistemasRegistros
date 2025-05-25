@@ -1,11 +1,6 @@
 ﻿using Kye.SistemasRegistros.DTO.Membresias;
 using Kye.SistemasRegistros.Entities.Enum;
 using Kye.SistemasRegistros.Repositorio.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kye.SistemasRegistros.CasosUso.Miembros;
 

@@ -61,6 +61,8 @@ namespace Kye.SistemasRegistros.Win
             services.AddScoped<AddLogo>();
             services.AddScoped<ConsultarLogosById>();
             services.AddSingleton<Login>();
+
+            /*Miembros*/
             services.AddScoped<BuscarMiembroByNombreId>();
             services.AddScoped<AgregarMiembro>();
             services.AddScoped<BuscarMiembroByStringEmpty>();
@@ -71,6 +73,8 @@ namespace Kye.SistemasRegistros.Win
             services.AddScoped<ConsultarMiembros>();
             services.AddSingleton<Navegacion>();
             services.AddScoped<EliminarMiembro>();
+            services.AddScoped<AgregarMembresia>();
+            /*Planes*/
             services.AddScoped<ConsultarPlanes>();
             services.AddScoped<AgregarPlanes>();
 

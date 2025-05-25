@@ -47,8 +47,8 @@ public partial class MainForm : Form
 
         lblMiembros.Text = Entities.Resources.Textos.Miembros;
         lblMembresias.Text = Entities.Resources.Textos.Membresias;
-        lblPagos.Text = Entities.Resources.Textos.Pagos;
-        lblPlanes.Text = Entities.Resources.Textos.Planes;
+        lblPlanes.Text = Entities.Resources.Textos.Pagos;
+        lblPagos.Text = Entities.Resources.Textos.Planes;
         lblCheckIn.Text = Entities.Resources.Textos.Movimientos;
         lblBitacora.Text = Entities.Resources.Textos.Bitacora_Sistema;
 
@@ -58,8 +58,8 @@ public partial class MainForm : Form
         #region Menu Sahdows
         lblMiembros.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
         lblMembresias.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
-        lblPagos.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
         lblPlanes.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
+        lblPagos.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
         lblCheckIn.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
         lblBitacora.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
         lblUsuario.Padding = new Padding(left: 0, top: 0, right: pnlMenu.Width, bottom: 0);
@@ -130,7 +130,7 @@ public partial class MainForm : Form
         AbrirPanelHijo(formHijo);
     }
 
-    private void lblPagos_Click(object sender, EventArgs e)
+    private void lblPlanes_Click(object sender, EventArgs e)
     {
         Form formHijo = (Form)HelperScoped.FormActual;
 
@@ -142,9 +142,11 @@ public partial class MainForm : Form
         }
 
         HelperScoped.ScopeActual = _serviceProvider.CreateScope();
-        HelperScoped.FormActual = HelperScoped.ScopeActual.ServiceProvider.GetRequiredService<AgregarPlanesForm>();
+        HelperScoped.FormActual = HelperScoped.ScopeActual.ServiceProvider.GetRequiredService<ConsultarPlanesForm>();
         formHijo = (Form)HelperScoped.FormActual;
 
         AbrirPanelHijo(formHijo);
     }
+
+    
 }

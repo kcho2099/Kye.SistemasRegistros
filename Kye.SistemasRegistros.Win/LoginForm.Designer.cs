@@ -62,6 +62,7 @@
             txtUsuario.PlaceholderText = "Ingresa tu usuario";
             txtUsuario.Size = new Size(290, 32);
             txtUsuario.TabIndex = 2;
+            txtUsuario.Text = "admin";
             // 
             // pictureBox1
             // 
@@ -97,6 +98,7 @@
             txtPassword.PlaceholderText = "Ingresa tu Contraseña";
             txtPassword.Size = new Size(290, 32);
             txtPassword.TabIndex = 3;
+            txtPassword.Text = "qwerty";
             // 
             // btnIngresar
             // 

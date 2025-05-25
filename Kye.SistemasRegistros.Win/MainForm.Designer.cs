@@ -38,9 +38,9 @@
             lblUsuario = new Label();
             lblMiembros = new Label();
             lblCheckIn = new Label();
-            lblPagos = new Label();
-            lblMembresias = new Label();
             lblPlanes = new Label();
+            lblMembresias = new Label();
+            lblPagos = new Label();
             pnlBody = new Panel();
             textosBindingSource = new BindingSource(components);
             pnlMenu.SuspendLayout();
@@ -59,9 +59,9 @@
             pnlMenu.Controls.Add(lblUsuario);
             pnlMenu.Controls.Add(lblMiembros);
             pnlMenu.Controls.Add(lblCheckIn);
-            pnlMenu.Controls.Add(lblPagos);
-            pnlMenu.Controls.Add(lblMembresias);
             pnlMenu.Controls.Add(lblPlanes);
+            pnlMenu.Controls.Add(lblMembresias);
+            pnlMenu.Controls.Add(lblPagos);
             pnlMenu.Location = new Point(12, 12);
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(249, 961);
@@ -157,20 +157,20 @@
             lblCheckIn.MouseEnter += lblMiembros_MouseEnter;
             lblCheckIn.MouseLeave += lblMiembros_MouseLeave;
             // 
-            // lblPagos
+            // lblPlanes
             // 
-            lblPagos.AutoSize = true;
-            lblPagos.Cursor = Cursors.Hand;
-            lblPagos.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
-            lblPagos.ForeColor = Color.Snow;
-            lblPagos.Location = new Point(3, 199);
-            lblPagos.Name = "lblPagos";
-            lblPagos.Size = new Size(237, 32);
-            lblPagos.TabIndex = 1;
-            lblPagos.Text = "lblPagos                   ";
-            lblPagos.Click += lblPagos_Click;
-            lblPagos.MouseEnter += lblMiembros_MouseEnter;
-            lblPagos.MouseLeave += lblMiembros_MouseLeave;
+            lblPlanes.AutoSize = true;
+            lblPlanes.Cursor = Cursors.Hand;
+            lblPlanes.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            lblPlanes.ForeColor = Color.Snow;
+            lblPlanes.Location = new Point(3, 199);
+            lblPlanes.Name = "lblPlanes";
+            lblPlanes.Size = new Size(110, 32);
+            lblPlanes.TabIndex = 1;
+            lblPlanes.Text = "lblPlanes";
+            lblPlanes.Click += lblPlanes_Click;
+            lblPlanes.MouseEnter += lblMiembros_MouseEnter;
+            lblPlanes.MouseLeave += lblMiembros_MouseLeave;
             // 
             // lblMembresias
             // 
@@ -187,19 +187,19 @@
             lblMembresias.MouseEnter += lblMiembros_MouseEnter;
             lblMembresias.MouseLeave += lblMiembros_MouseLeave;
             // 
-            // lblPlanes
+            // lblPagos
             // 
-            lblPlanes.AutoSize = true;
-            lblPlanes.Cursor = Cursors.Hand;
-            lblPlanes.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
-            lblPlanes.ForeColor = Color.Snow;
-            lblPlanes.Location = new Point(3, 293);
-            lblPlanes.Name = "lblPlanes";
-            lblPlanes.Size = new Size(236, 32);
-            lblPlanes.TabIndex = 1;
-            lblPlanes.Text = "lblPlanes                  ";
-            lblPlanes.MouseEnter += lblMiembros_MouseEnter;
-            lblPlanes.MouseLeave += lblMiembros_MouseLeave;
+            lblPagos.AutoSize = true;
+            lblPagos.Cursor = Cursors.Hand;
+            lblPagos.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            lblPagos.ForeColor = Color.Snow;
+            lblPagos.Location = new Point(3, 293);
+            lblPagos.Name = "lblPagos";
+            lblPagos.Size = new Size(104, 32);
+            lblPagos.TabIndex = 1;
+            lblPagos.Text = "lblPagos";
+            lblPagos.MouseEnter += lblMiembros_MouseEnter;
+            lblPagos.MouseLeave += lblMiembros_MouseLeave;
             // 
             // pnlBody
             // 
@@ -245,8 +245,8 @@
         private Label lblMiembros;
         private Label lblBitacora;
         private Label label7;
-        private Label lblPlanes;
         private Label lblPagos;
+        private Label lblPlanes;
         private Label lblMembresias;
         private BindingSource textosBindingSource;
         private Label lblCheckIn;
