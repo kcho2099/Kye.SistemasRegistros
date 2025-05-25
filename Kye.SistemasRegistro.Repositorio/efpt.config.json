@@ -1,0 +1,81 @@
+﻿{
+   "CodeGenerationMode": 5,
+   "ContextClassName": "DBSistemasRegistrosContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Kye.SistemasRegistros.Repositorio",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[BITACORAS_SISTEMA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CHECKINS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CONTACTOS_EMERGENCIAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LOGOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MEMBRESIAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MIEMBROS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAGOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PLANES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[USUARIOS]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
