@@ -28,21 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // ConsultarMembresias
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 38);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(1154, 462);
+            dataGridView1.TabIndex = 0;
+            // 
+            // ConsultaMembresiasForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(55, 55, 55);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1178, 580);
+            Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "ConsultarMembresias";
+            Name = "ConsultaMembresiasForm";
             Text = "ConsultarMembresias";
             Load += ConsultarMembresias_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private DataGridView dataGridView1;
     }
 }

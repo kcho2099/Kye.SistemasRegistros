@@ -43,6 +43,21 @@ public partial class ConsultarPlanesForm : Form
         dgvPlanes.Columns["TipoDescuento"]!.DataPropertyName = "TipoDescuento";
         dgvPlanes.Columns["ValorDescuento"]!.DataPropertyName = "ValorDescuento";
         dgvPlanes.Columns["IdPlan"]!.DataPropertyName = "IdPlan";
-        
+
+    }
+
+    private void btnAgregar_Click(object sender, EventArgs e)
+    {
+      Navegar<AgregarPlanesForm>();
+    }
+
+    private void Navegar<T>() where T : class
+    {
+        if (this.Parent != null)
+        {
+            _navegacion.Navegar<T>(this.Parent);
+        }
+
+        this.Close();
     }
 }

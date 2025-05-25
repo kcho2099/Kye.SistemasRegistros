@@ -47,8 +47,8 @@ public partial class MainForm : Form
 
         lblMiembros.Text = Entities.Resources.Textos.Miembros;
         lblMembresias.Text = Entities.Resources.Textos.Membresias;
-        lblPlanes.Text = Entities.Resources.Textos.Pagos;
-        lblPagos.Text = Entities.Resources.Textos.Planes;
+        lblPlanes.Text = Entities.Resources.Textos.Planes;
+        lblPagos.Text = Entities.Resources.Textos.Pagos;
         lblCheckIn.Text = Entities.Resources.Textos.Movimientos;
         lblBitacora.Text = Entities.Resources.Textos.Bitacora_Sistema;
 

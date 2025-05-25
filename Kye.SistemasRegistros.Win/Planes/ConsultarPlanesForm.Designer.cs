@@ -40,11 +40,11 @@
             FechaFinPromocion = new DataGridViewTextBoxColumn();
             TipoDescuento = new DataGridViewTextBoxColumn();
             ValorDescuento = new DataGridViewTextBoxColumn();
+            IdPlan = new DataGridViewTextBoxColumn();
             lblBuscar = new Label();
             btnBuscar = new Button();
             lineShape1 = new Kye.SistemasRegistros.Win.Controles.LineShape();
             txtBuscar = new Kye.SistemasRegistros.Win.Controles.TextBoxSistema();
-            IdPlan = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)btnAtras).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvPlanes).BeginInit();
             SuspendLayout();
@@ -58,6 +58,7 @@
             btnAgregar.TabIndex = 0;
             btnAgregar.Text = "button1";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnAtras
             // 
@@ -135,6 +136,13 @@
             ValorDescuento.Name = "ValorDescuento";
             ValorDescuento.ReadOnly = true;
             // 
+            // IdPlan
+            // 
+            IdPlan.HeaderText = "IdPlan";
+            IdPlan.Name = "IdPlan";
+            IdPlan.ReadOnly = true;
+            IdPlan.Visible = false;
+            // 
             // lblBuscar
             // 
             lblBuscar.AutoSize = true;
@@ -185,13 +193,6 @@
             txtBuscar.Size = new Size(323, 32);
             txtBuscar.TabIndex = 15;
             txtBuscar.TextAlign = HorizontalAlignment.Center;
-            // 
-            // IdPlan
-            // 
-            IdPlan.HeaderText = "IdPlan";
-            IdPlan.Name = "IdPlan";
-            IdPlan.ReadOnly = true;
-            IdPlan.Visible = false;
             // 
             // ConsultarPlanesForm
             // 
